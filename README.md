@@ -1,66 +1,66 @@
-# EMOJI RECOMMENDATION SYSTEM BASED ON FACIAL EXPRESSIONS 
+# REAL-TIME EMOJI RECOMMENDATION SYSTEM USING FACIAL EMOTION RECOGNITION 
 
 **The domain of the Project:** Deep Learning, Computer Vision
 
-**Team Mentors (and their designation):** Mr. Gaurav Patel (Data Analyt)
+**Faculty Guide :** Mr. Aqib Akhtar Zia
 
-**Team Members:** Mr. Dosapati Yaswanth Guptha (B.Tech, CSBS) 3<sup>rd</sup> year
+**Student:** Ms. Ananta Verma (B.Tech – CSE (Data Science)) 4<sup>th</sup> year
 
-**Period of the project**: 2024 - April 2025
+**Period of the project**: 2025 - 2026
 
-# SURE ProEd PUTTAPARTHI, ANDHRA PRADESH
+# Institution: Meerut Institute of Engineering and Technology, Meerut, Uttar Pradesh
 
 ### **_DECLARATION_**
 
-The project titled **“EMOJI RECOMMENDATION SYSTEM BASED ON FACIAL EXPRESSIONS”** has been mentored by **Mr. Gaurav Patel**, **Mr. Shanmukha**, **Mr. Ravi Shankar** and organized by **SURE ProEd** to **2024 - April 2025**. This project leverages deep learning techniques to detect emotions from facial expressions, with a focus on real-time analysis.
+The project titled **“REAL-TIME EMOJI RECOMMENDATION SYSTEM USING FACIAL EMOTION RECOGNITION”** has been mentored by **Mr. Aqib Akhtar Zia** and organized by the Department of Computer Science and Engineering (Data Science) at Meerut Institute of Engineering and Technology, Meerut, Uttar Pradesh, during the period **2025 - 2026**.
 
-I, **Dosapati Yaswanth Guptha**, hereby declare that I have solely worked on this project under the guidance of my mentor. This project has significantly enhanced my practical knowledge and skills in the domain of **Computer Vision** and **Deep Learning**.
+This project leverages deep learning techniques to detect emotions from facial expressions, with a focus on real-time analysis and emoji recommendation.
+
+I, **Ananta Verma**, hereby declare that I have solely worked on this project under the guidance of my mentor. This project has significantly enhanced my practical knowledge and skills in the domain of **Computer Vision** and **Deep Learning**.
 
 | **Name** |
 | --- |
-| Mr. D. Yaswanth Guptha | 
+| Ms. Ananta Verma | 
 
 | **Mentor Nme** |
 | --- |
-| Mr. Gaurav Patel | 
+| Mr. Aqib Akhtar Zia | 
 
 **Seal & Signature**
 
-Prof.Radhakumari
-
-Executive Director & Founder
-
-SURE ProEd
+Department of Computer Science and Engineering (Data Science)
+Meerut Institute of Engineering and Technology, Meerut, Uttar Pradesh
 
 **_Executive Summary_**
 
-This project implements a real-time **Face Emotion Detection System** using deep learning techniques trained on the **MMAFEDB (Multi-Modal Affective Faces Expression Database)** dataset. The system is designed to automatically identify and classify human facial emotions—such as happiness, sadness, anger, surprise, and more—through visual input, enabling applications in areas like human-computer interaction, mental health analysis, and smart surveillance.
+This project implements a **real-time Face Emotion Detection and Emoji Recommendation System using deep learning techniques** trained on the **MMAFEDB (Multi-Modal Affective Faces Expression Database) dataset**. The system is designed to automatically identify and classify human facial emotions—such as happiness, sadness, anger, surprise, and more—through visual input, enabling real-time emoji recommendations for expressive communication.
 
-A convolutional neural network (CNN)-based deep learning model was trained on the MMAFEDB dataset, which includes a diverse range of facial expressions captured under varying conditions. The model was then integrated into a real-time webcam application using OpenCV and Flask, capable of live facial emotion recognition and display.
+A Convolutional Neural Network (CNN)-based model was trained on the MMAFEDB dataset, which includes a diverse range of facial expressions captured under varying conditions. The model was then integrated into a real-time webcam application using OpenCV and Flask, capable of live emotion recognition and emoji display.
 
-The use of transfer learning and data augmentation techniques helped improve model accuracy and generalization. This project highlights the effectiveness of deep learning in computer vision tasks and demonstrates a practical solution for emotion recognition in real-world environments.
+The use of transfer learning and data augmentation improved model accuracy and generalization. This project highlights the effectiveness of deep learning in computer vision and demonstrates a practical solution for emotion-aware applications.
 
-This system offers a strong foundation for future enhancements, including multi-modal input processing, deployment on edge devices, and integration with broader emotion-aware applications.
+This system forms a foundation for future work like multi-modal analysis, mobile deployment, and emotion-based user interfaces.
 
 # **_Introduction_**
 
 ## **Background and Context**
 
-Facial emotion recognition is a key application of computer vision and human-computer interaction. With deep learning techniques, emotion detection has become more accurate and real-time capable. This project uses the MMAFEDB dataset to train a CNN model for identifying facial emotions. It aims to enhance user interaction by enabling machines to understand human emotions effectively.
+Facial emotion recognition plays a crucial role in human-computer interaction. With the advancement of deep learning, it is now possible to detect emotions in real-time. This project utilizes the MMAFEDB dataset to train a CNN for emotion detection and map each detected emotion to a corresponding emoji, creating a bridge between human expression and digital communication.
 
 ## **Problem Statement**
 
-Despite advancements in deep learning, accurately detecting facial emotions in real-time remains a challenge due to variations in lighting, facial expressions, and individual differences. Existing models often require high computational power and large datasets, making deployment on real-world applications difficult. This project aims to develop an efficient deep learning model using the MMAFEDB dataset to recognize emotions from facial images in real-time.
+Accurately recognizing emotions in real-time remains a challenge due to lighting, occlusion, and subtle expression variations. This project aims to create a lightweight and efficient model capable of real-time facial emotion recognition and emoji recommendation, improving both user engagement and communication expressiveness.
 
 ## **Scope**
+1.) **Real-Time Emotion Detection:** Detect and classify human emotions using live webcam input.
 
-This project aims to develop a lightweight, resource-efficient voice command recognition system designed to run on the ESP32 microcontroller, leveraging signal processing techniques instead of machine learning. The scope includes:
+2.) **Deep Learning Integration:** Train CNN-based models on facial datasets.
 
-1. **Real-Time Emotion Detection:** The system captures live webcam feed to detect and classify facial emotions in real-time.
-2. **Deep Learning Integration:** Utilizes deep learning techniques to train a model on the MMAFEDB dataset for accurate emotion classification.
-3. **Multi-Emotion Recognition:** Capable of identifying a range of human emotions such as happiness, sadness, anger, surprise, fear, disgust, and neutrality.
-4. **Practical Applications:** Designed for potential use in mental health monitoring, user experience enhancement, e-learning feedback systems, and smart surveillance.
-5. **Webcam-Based Input:** Emphasizes ease of deployment using standard webcam input, without the need for specialized hardware.
+3.) **Multi-Emotion Recognition:** Identify emotions like happiness, sadness, anger, surprise, fear, disgust, and neutral.
+
+4.) **Emoji Recommendation:** Suggest emojis that represent the detected emotion.
+
+5.) **Applications:** Mental health tools, interactive learning, social media chatbots, and accessibility tools.
 
 ## **Limitations**
 
@@ -71,7 +71,7 @@ This project aims to develop a lightweight, resource-efficient voice command rec
 
 ## **Innovation**
 
-This project introduces a real-time face emotion detection system using deep learning, trained specifically on the MMAFEDB dataset—a richly annotated and diverse collection tailored for multi-modal emotion analysis. Unlike traditional models that focus on static image classification, our system processes live webcam input and dynamically predicts emotional states, enabling more interactive human-computer interaction. By integrating computer vision techniques with convolutional neural networks (CNNs), the project showcases an innovative application of deep learning for affective computing. The model’s deployment in real-time adds a novel edge, making it suitable for modern applications like virtual counseling, sentiment-aware tutoring systems, and adaptive user interfaces.
+This project combines real-time emotion recognition with emoji generation, creating a novel application of AI-driven emotion analysis. Unlike traditional static systems, it dynamically analyzes live input and recommends emojis, enhancing both user experience and digital communication.
 
 # **_Project Objectives_**
 
