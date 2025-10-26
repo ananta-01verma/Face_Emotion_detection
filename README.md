@@ -242,7 +242,7 @@ Training loss is decreasing and accuracy is increasing. But validation graph is 
 
 **GitHub Link**
 
-**<https://github.com/Yaswanth20003/Face_Emotion_detection>**
+**<[https://github.com/ananta-01verma/Face_Emotion_detection]>**
 
 **_Social / Industry relevance of the project_**
 
